@@ -1,0 +1,35 @@
+.carousel-inner {
+    max-height: 580px;
+    overflow: hidden; /* Prevents images from exceeding the max height */
+}
+
+.carousel-item img {
+    max-height: 580px; /* Ensures images don't exceed the container's height */
+    object-fit: cover; /* Ensures images are scaled without distortion */
+}
+
+.carousel-caption {
+    z-index: 10;
+    bottom: 20px; /* Positioning the caption a bit above the bottom of the carousel */
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a background behind the form to make it stand out */
+    padding: 15px;
+    border-radius: 5px;
+    width: 80%; /* Adjust the width as needed */
+}
+
+.form-control, .btn {
+    height: auto; /* Ensures that the form inputs scale properly */
+}
+
+.imager{
+    max-height: 191px !important;
+    object-fit: cover;
+}
+
+.topper{
+    height: 84vh !important;
+}
+
+.boxer{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
